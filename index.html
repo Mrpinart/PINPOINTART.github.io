@@ -48,7 +48,7 @@
     .hero {
       height: 100vh;
       /* ▼ 이 부분을 사용자 제공 이미지로 변경합니다. ▼ */
-      background: <img src="https://imgur.com/a/RcrmvZY">
+      background: url('로고2.jpg') center center/cover no-repeat;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -148,7 +148,9 @@
   <!-- 히어로 섹션 -->
   <section id="hero" class="hero">
     <div class="hero-content">
-    
+      <!-- 이미지 자체에 이미 PIN ART가 표시되어 있다면
+           아래 텍스트를 제거하셔도 됩니다. -->
+  
     </div>
   </section>
   
@@ -165,9 +167,8 @@
     <h2>Gallery</h2>
     <p>아래는 PIN ART의 다양한 모습을 담은 사진들입니다.</p>
     <div class="gallery-container">
-      <img src="https://source.unsplash.com/random/800x600/?art,1" alt="예술 사진 1">
-      <img src="https://source.unsplash.com/random/800x600/?art,2" alt="예술 사진 2">
-      <img src="https://source.unsplash.com/random/800x600/?art,3" alt="예술 사진 3">
+      <!-- 사용자 제공 이미지(아트.png)로 교체 -->
+      <img src="아트.png" alt="PIN ART 이미지" />
     </div>
   </section>
   
